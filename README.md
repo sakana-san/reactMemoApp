@@ -22,6 +22,8 @@ WEB+DB PRESS vol.97のシングルアプリページ入門をする
     "build": "./node_modules/.bin/webpack",
     "start": "./node_modules/.bin/webpack-dev-server"
   },
+  
+  npm startで起動して、http://localhost:8080/でOK
 ```
 
 
@@ -38,12 +40,13 @@ entry: {
     css: './src/main.css'
 },
 
+webpack2系,3系の書き方
+
 entry: [
     './src/main.js', 
     './src/main.css'
 ],
 
-webpack2系,3系の書き方
 
 ```
 
